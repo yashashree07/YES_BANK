@@ -82,7 +82,7 @@ public class HomePage {
 	@FindBy(xpath = "//*[@id=\"1l3l4l11l4\"]/a")
 	WebElement purposeCodeApproveMenu;
 
-	@FindBy(xpath = "//*[@id=\"1l3l4l11l5\"]/i")
+	@FindBy(xpath = "//*[@id=\"1l3l4l11l5\"]/a")
 	WebElement purposeCodeDeleteMenu;
 
 	//Customer Menu WebElements

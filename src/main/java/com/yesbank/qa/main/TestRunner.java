@@ -18,7 +18,7 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome=true,
 		dryRun=false,
 		glue= {"com.yesbank.qa.stepDefination"},
-		tags="@TC04_07_PurposeCode_List",
+		tags="@TC04_09_PurposeCode_Delete",
 		plugin = {"pretty", "html:target/cucumber-html-report","json:target/cucumber-reports/Cucumber.json","junit:target/cucumber-reports/Cucumber.xml",
 						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 		

@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.871079">
-<testcase classname="To test Functionality of Purpose Code Menu" name="Testing of List functionality for Purpose Code Menu" time="18.871079">
-<failure message="org.openqa.selenium.NoSuchFrameException: No frame element found by name or id toc&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'&#10;System info: host: 'DESKTOP-02413D4', ip: '172.24.192.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:881)&#13;&#10;&#9;at com.yesbank.qa.util.ElementUtil.GoToFrame(ElementUtil.java:47)&#13;&#10;&#9;at com.yesbank.qa.stepDefination.PurposeCodeStepDefination.user_navigates_to_Application_Master_Data_Maintenance_selects_Purpose_Code_menu_and_clicks_on_sub_option_List(PurposeCodeStepDefination.java:62)&#13;&#10;&#9;at ✽.User navigates to Application, Master Data Maintenance selects Purpose Code menu and clicks on sub option List(file:src/main/resources/Features/TC04-PurposeCode.feature:64)&#13;&#10;"><![CDATA[Given User navigates to Application, Master Data Maintenance selects Purpose Code menu and clicks on sub option List.failed
-Then User provides the valid record details using Sheet "PurposeCode_ModifyApproveList" to view the required record.skipped
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="49.747284">
+<testcase classname="To test Functionality of Purpose Code Menu" name="Testing of Delete functionality With Valid Data for Purpose Code Menu" time="49.747284">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)&#13;&#10;&#9;at com.sun.proxy.$Proxy16.click(Unknown Source)&#13;&#10;&#9;at com.yesbank.qa.util.ElementUtil.clickElement(ElementUtil.java:37)&#13;&#10;&#9;at com.yesbank.qa.pages.PurposeCodePage.deletepurposeCodeRecord(PurposeCodePage.java:497)&#13;&#10;&#9;at com.yesbank.qa.stepDefination.PurposeCodeStepDefination.user_provides_the_valid_record_details_using_Sheet_to_Delete_the_required_record(PurposeCodeStepDefination.java:86)&#13;&#10;&#9;at ✽.User provides the valid record details using Sheet &quot;PurposeCode_DeleteApproveList&quot; to Delete the required record(file:src/main/resources/Features/TC04-PurposeCode.feature:84)&#13;&#10;"><![CDATA[Given User navigates to Application, Master Data Maintenance selects Purpose Code menu and clicks on sub option Delete.passed
+Then User provides the valid record details using Sheet "PurposeCode_DeleteApproveList" to Delete the required record.failed
 
 StackTrace:
-org.openqa.selenium.NoSuchFrameException: No frame element found by name or id toc
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
-System info: host: 'DESKTOP-02413D4', ip: '172.24.192.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:881)
-	at com.yesbank.qa.util.ElementUtil.GoToFrame(ElementUtil.java:47)
-	at com.yesbank.qa.stepDefination.PurposeCodeStepDefination.user_navigates_to_Application_Master_Data_Maintenance_selects_Purpose_Code_menu_and_clicks_on_sub_option_List(PurposeCodeStepDefination.java:62)
-	at ✽.User navigates to Application, Master Data Maintenance selects Purpose Code menu and clicks on sub option List(file:src/main/resources/Features/TC04-PurposeCode.feature:64)
+java.lang.NullPointerException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.yesbank.qa.util.ElementUtil.clickElement(ElementUtil.java:37)
+	at com.yesbank.qa.pages.PurposeCodePage.deletepurposeCodeRecord(PurposeCodePage.java:497)
+	at com.yesbank.qa.stepDefination.PurposeCodeStepDefination.user_provides_the_valid_record_details_using_Sheet_to_Delete_the_required_record(PurposeCodeStepDefination.java:86)
+	at ✽.User provides the valid record details using Sheet "PurposeCode_DeleteApproveList" to Delete the required record(file:src/main/resources/Features/TC04-PurposeCode.feature:84)
 ]]></failure>
 </testcase>
 </testsuite>

@@ -79,3 +79,11 @@
 2021-11-24 16:33:00,155  INFO [main] LoginPage:66 - Password entered
 2021-11-24 16:33:00,821  INFO [main] LoginPage:74 - ×
 Operation Login failed to execute: Operator already logged on.
+2021-11-25 09:37:16,639  INFO [main] Hooks:38 - ****LAUNCH BROWSER****
+2021-11-25 09:37:16,644  INFO [main] Hooks:39 - ------------------------------------------------------------
+2021-11-25 09:37:16,645  INFO [main] Hooks:40 - Testing of Delete functionality With Valid Data for Purpose Code Menu
+2021-11-25 09:37:16,645  INFO [main] Hooks:41 - ------------------------------------------------------------
+2021-11-25 09:37:16,646  INFO [main] DriverFactory:23 - Browser value is chrome
+2021-11-25 09:37:36,870  INFO [main] LoginPage:64 - Username entered
+2021-11-25 09:37:36,941  INFO [main] LoginPage:66 - Password entered
+2021-11-25 09:37:55,826  INFO [main] LoginPage:77 - Login Successful
